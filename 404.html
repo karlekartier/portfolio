@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <title>karle | Template</title>
+        
+        <!-- Viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- Theme switcher (color modes) -->
+        <script src="./assets/js/color-modes.js"></script>
+        <script src="./assets/js/pageload.js"></script>
+
+        <!-- Favicon -->
+        <link rel="icon" href="./assets/favicon/kk_logo.svg"/>
+        <meta name="theme-color" content="#ffffff"/>
+
+  <!-- Vendor Styles -->
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!-- Main Theme Styles + Bootstrap -->
+        <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css"/>
+        <link rel="stylesheet" media="screen" href="./assets/css/pageloading.css"/>
+
+    </head>
+    <body>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+          <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+        </symbol>
+        <symbol id="check2" viewBox="0 0 16 16">
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </symbol>
+      </svg>
+
+          <!-- Page loading spinner -->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+
+    <main class="page-wrapper">
+
+        <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top">
+            <div class="container px-3">
+                <a href="#" class="navbar-brand pe-3">
+                    <img class="me-2 d-inline-block logoanima" src="./assets/favicon/kk_logo.svg" width="38" role="img" />
+                    KarthickKishore
+                </a>
+                <div id="navbarNav" class="offcanvas offcanvas-end">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item active">
+                            <a href="index.html" class="nav-link" aria-current="page">
+                              <i class="bx bx-home bx-fade-left-hover fs-4 me-2"></i>
+                              Home
+                            </a>
+                        </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                  <i class="bx bxs-book-open bx-tada-hover fs-4 me-2"></i>
+                                  Pages
+                                </a>
+                                <div class="dropdown-menu">
+                                    <div class="d-lg-flex pt-lg-3">
+                                        <div class="mega-dropdown-column">
+                                            <h6 class="px-3 mb-2">About</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">About Me</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">profile</a></li>
+                                            </ul>
+                                            <h6 class="px-3 mb-2">Blog</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Blog Pages</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Case Study</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Artwork</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Article</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Gallery</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-dropdown-column">
+                                            <h6 class="px-3 mb-2">Portfolio</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Works</a></li>
+                                            </ul>
+                                            <h6 class="px-3 mb-2">Services</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Services</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Tools</a></li>
+                                            </ul>
+                                            <h6 class="px-3 mb-2">Education</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Awards</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">certificate</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-dropdown-column">
+                                            <h6 class="px-3 mb-2">Pricing</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Pricing Page</a></li>
+                                            </ul>
+                                            <h6 class="px-3 mb-2">Contacts</h6>
+                                            <ul class="list-unstyled mb-3">
+                                                <li><a href="#" class="dropdown-item py-1">Social links</a></li>
+                                            </ul>
+                                            <h6 class="px-3 mb-2">Specialty</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#" class="dropdown-item py-1">Feature</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">Updates</a></li>
+                                                <li><a href="#" class="dropdown-item py-1">404 Error</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                  <i class="bx bxs-user-account bx-burst-hover fs-4 me-2"></i>
+                                  Account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item"><i class="bx bx-message me-2 fs-sm"></i>Account Details</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Security</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Notifications</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Messages</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Saved Items</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">My Collections</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Payment Details</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Sign In</a></li>
+                                    <li class="list-group-item d-flex align-items-center"><a href="" class="dropdown-item">Sign Up</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                  <i class="bx bx-file bx-fade-right-hover fs-4 me-2"></i>
+                                  Docs
+                                </a>
+                            </li>
+                            <li class="nav-item ms-lg-auto">
+                              <div class="vr d-none d-lg-flex h-100 mx-lg-2"></div>
+                              <hr class="d-lg-none my-2">
+                            </li>
+                            <li class="nav-item dropdown">
+                              <button class="btn btn-link nav-link mt-lg-1 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                                      id="bd-theme"
+                                      type="button"
+                                      aria-expanded="false"
+                                      data-bs-toggle="dropdown"
+                                      data-bs-display="static"
+                                      aria-label="Toggle theme (auto)">
+                                <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+                                <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+                                <li>
+                                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <svg class="bi me-2 opacity-50"><use href="#sun-fill"></use></svg>
+                                    Light
+                                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <svg class="bi me-2 opacity-50"><use href="#moon-stars-fill"></use></svg>
+                                    Dark
+                                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                                    <svg class="bi me-2 opacity-50"><use href="#circle-half"></use></svg>
+                                    Auto
+                                    <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                            </ul>
+                    </div>
+                    <div class="offcanvas-header border-top">
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </header>
+                
+<!-- Page content -->
+<section class="d-flex align-items-center min-vh-100 py-5 bg-light" style="background: radial-gradient(144.3% 173.7% at 71.41% 94.26%, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 32.49%, rgba(241, 244, 253, 0.07) 82.52%);">
+  <div class="container my-5 text-md-start text-center">
+
+              <!--breadcrumb-->
+              <div class="my-2 py-2">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="bx bxs-binoculars bx-flashing-hover fs-lg me-1"></i>Overview</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><i class="bx bx-plug bx-fade-up-hover fs-lg me-1"></i>404 Error</li>
+                  </ol>
+                </nav>
+                </div>
+                <!--breadcrumb end-->
+
+    <div class="row align-items-center">
+
+      <!-- Animation -->
+      <div class="col-xl-6 col-md-7 order-md-2 pt-4">
+        <img src="./assets/images/svg/404errorlight.svg" class="d-dark-mode-none d-block" background="transparent" alt="Image">
+          <img src="./assets/images/svg/404errordark.svg" class="d-none d-dark-mode-block d-block" background="transparent" alt="Image">
+      </div>
+
+      <!-- Text -->
+      <div class="col-md-5 offset-xl-1 order-md-1 mt-4 py-4 py-sm-4 pb-2 pt-2">
+        <h1 class="display-1 mb-sm-4 mt-n4 mt-4">Error 404</h1>
+        <p class="mb-md-5 mb-4 mx-md-0 mx-auto pb-2 lead">The page you are looking for was moved, removed or might never existed.</p>
+        <a href="index.html" class="btn btn-lg btn-primary shadow-primary w-sm-auto w-100">
+          <i class="bx bx-home me-2 ms-n1 lead"></i>
+          Go to homepage
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<!-- Footer -->
+<footer class="container text-md-start text-center py-lg-5 py-4" style="transform: translateY(-100%);">
+<div class="row">
+  <div class="col-xl-11 offset-xl-1">
+    <p class="nav d-block fs-sm text-center text-md-start mb-0">
+      &copy; All rights reserved. Made by 
+      <a class="nav-link d-inline-block p-0" href="index.html" target="_blank" rel="noopener">Karthick Kishore</a>
+    </p>
+  </div>
+</div>
+</footer>
+
+              <!-- Main Theme Script -->
+                      <script src="./assets/js/theme.min.js"></script>
+                  </body>
+              </html>
+              

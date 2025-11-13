@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karlekartier.github.io/portfolio/sitemap.xml

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://karlekartier.github.io/portfolio/</loc>
+  <lastmod>2025-09-08T17:16:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://karlekartier.github.io/portfolio/contact.html</loc>
+  <lastmod>2025-09-08T17:16:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://karlekartier.github.io/portfolio/404.html</loc>
+  <lastmod>2025-09-08T17:16:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://karlekartier.github.io/portfolio/assets/pdf/Karthick%20Kishore%20CV%202025.pdf</loc>
+  <lastmod>2025-09-08T17:16:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://karlekartier.github.io/portfolio/index.html</loc>
+  <lastmod>2025-09-08T17:16:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+
+</urlset>
